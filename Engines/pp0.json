@@ -1,6 +1,6 @@
 {
     "private" : false,
-    "nps"     : 865000,
+    "nps"     : 130000,
     "source"  : "https://github.com/fangs124/pp0",
 
     "build" : {
@@ -15,8 +15,10 @@
         "default" : {
             "base_branch"     : "dev",
             "book_name"       : "UHO_Lichess_4852_v1.epd",
-            "test_bounds"     : "[0.00, 3.00]",
-            "test_confidence" : "[0.05, 0.05]"
+            "test_bounds"     : "[0.00, 5.00]",
+            "test_confidence" : "[0.05, 0.10]",
+            "win_adj"       : "None",
+            "draw_adj"      : "None"
         },
 
         "STC" : {
